@@ -1,0 +1,7 @@
+D:\gbCourse\Level1\Lesson1\homework1\homework1\homework1\bin\Debug\homework1.exe.config
+D:\gbCourse\Level1\Lesson1\homework1\homework1\homework1\bin\Debug\homework1.exe
+D:\gbCourse\Level1\Lesson1\homework1\homework1\homework1\bin\Debug\homework1.pdb
+D:\gbCourse\Level1\Lesson1\homework1\homework1\homework1\obj\Debug\task1.csprojAssemblyReference.cache
+D:\gbCourse\Level1\Lesson1\homework1\homework1\homework1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+D:\gbCourse\Level1\Lesson1\homework1\homework1\homework1\obj\Debug\homework1.exe
+D:\gbCourse\Level1\Lesson1\homework1\homework1\homework1\obj\Debug\homework1.pdb

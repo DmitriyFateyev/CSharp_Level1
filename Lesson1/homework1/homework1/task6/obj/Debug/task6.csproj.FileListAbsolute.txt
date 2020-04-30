@@ -1,0 +1,6 @@
+D:\gbCourse\Level1\Lesson1\homework1\homework1\task6\bin\Debug\task6.exe.config
+D:\gbCourse\Level1\Lesson1\homework1\homework1\task6\bin\Debug\task6.exe
+D:\gbCourse\Level1\Lesson1\homework1\homework1\task6\bin\Debug\task6.pdb
+D:\gbCourse\Level1\Lesson1\homework1\homework1\task6\obj\Debug\task6.csproj.CoreCompileInputs.cache
+D:\gbCourse\Level1\Lesson1\homework1\homework1\task6\obj\Debug\task6.exe
+D:\gbCourse\Level1\Lesson1\homework1\homework1\task6\obj\Debug\task6.pdb
