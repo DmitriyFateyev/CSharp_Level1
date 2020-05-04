@@ -56,7 +56,6 @@ class Program
         else
         {
             Console.WriteLine($"Проверьте правильность ввода данных!");
-            Console.WriteLine($"Для нормализации веса, необходимо похудеть на {Math.Ceiling((BodyMassIndex - maxNormal_BMI) * height * height)}кг");
         }
     }
     #endregion

@@ -15,7 +15,6 @@ class Program
 {
     static bool Authentication(string login, string password)
     {
-
         return (login == "root" && password == "GeekBrains") ? true : false;
     }
 
