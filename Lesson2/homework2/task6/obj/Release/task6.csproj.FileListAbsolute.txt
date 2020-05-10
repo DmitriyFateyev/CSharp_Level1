@@ -1,0 +1,7 @@
+D:\gbCourse\Level1\Lesson2\homework2\task6\bin\Release\task6.exe.config
+D:\gbCourse\Level1\Lesson2\homework2\task6\bin\Release\task6.exe
+D:\gbCourse\Level1\Lesson2\homework2\task6\bin\Release\task6.pdb
+D:\gbCourse\Level1\Lesson2\homework2\task6\obj\Release\task6.csprojAssemblyReference.cache
+D:\gbCourse\Level1\Lesson2\homework2\task6\obj\Release\task6.csproj.CoreCompileInputs.cache
+D:\gbCourse\Level1\Lesson2\homework2\task6\obj\Release\task6.exe
+D:\gbCourse\Level1\Lesson2\homework2\task6\obj\Release\task6.pdb
