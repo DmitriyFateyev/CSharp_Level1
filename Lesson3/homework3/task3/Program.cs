@@ -84,23 +84,38 @@ class Program
             Console.Write($"Введите знаменатель b2 = ");
             int.TryParse(Console.ReadLine(), out int b2);
 
+            Console.WriteLine(Environment.NewLine);
+
             Fraction r2 = new Fraction(a2, b2);
 
             Fraction result = r1.Add(r2); // r1 + r2 = a1/b2 + a2/b2
-
-            Console.WriteLine(Environment.NewLine);
-
             Console.Write($"Сложение: {a1}/{b1} + {a2}/{b2} = {result.ToString()} = ");
-
             result = result.SimplifyRatio(result);
             Console.WriteLine(result.ToString());
-
             Console.WriteLine($"Десятичная дробь: {result.Decimal:F3}");
+            Console.WriteLine(Environment.NewLine);
 
-            Console.WriteLine($"Наибольший общий делитель: {GCD(result.Numerator, result.Denominator)}");
+            result = r1.Substract(r2);  // r1 - r2 = a1/b2 - a2/b2
+            Console.Write($"Вычитание: {a1}/{b1} - {a2}/{b2} = {result.ToString()} = ");
+            result = result.SimplifyRatio(result);
+            Console.WriteLine(result.ToString());
+            Console.WriteLine($"Десятичная дробь: {result.Decimal:F3}");
+            Console.WriteLine(Environment.NewLine);
+
+            result = r1.Mult(r2);  // r1 * r2 = a1/b2 * a2/b2
+            Console.Write($"Умножение: {a1}/{b1} * {a2}/{b2} = {result.ToString()} = ");
+            result = result.SimplifyRatio(result);
+            Console.WriteLine(result.ToString());
+            Console.WriteLine($"Десятичная дробь: {result.Decimal:F3}");
+            Console.WriteLine(Environment.NewLine);
+
+            result = r1.Divide(r2);  // r1 * r2 = a1/b2 * a2/b2
+            Console.Write($"Деление: {a1}/{b1} / {a2}/{b2} = {result.ToString()} = ");
+            result = result.SimplifyRatio(result);
+            Console.WriteLine(result.ToString());
+            Console.WriteLine($"Десятичная дробь: {result.Decimal:F3}");
+            Console.WriteLine(Environment.NewLine);
+            
         } while (true);
-        
-        
-        
     }
 }

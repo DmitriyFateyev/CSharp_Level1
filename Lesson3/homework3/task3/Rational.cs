@@ -45,7 +45,7 @@ class Fraction
     {
         Fraction r3 = new Fraction();
 
-        //r1 * r2 = (a1 * a2) / (b1 * b2)
+        //r1 * r2 = (n1 * n2) / (d1 * d2)
         r3._numerator = _numerator * r2._numerator;
         r3._denominator = _denominator * r2._denominator;
 
@@ -56,9 +56,9 @@ class Fraction
     {
         Fraction r3 = new Fraction();
 
-        //r1 / r2 = (a1 * b2) / (a2 * b1)
-        r3._numerator = _numerator * r2._numerator;
-        r3._denominator = _denominator * r2._denominator;
+        //r1 / r2 = (n1 * d2) / (n2 * d1)
+        r3._numerator = _numerator * r2.Denominator;
+        r3._denominator = r2.Numerator * Denominator;
 
         if (r3._denominator == 0)
         {
