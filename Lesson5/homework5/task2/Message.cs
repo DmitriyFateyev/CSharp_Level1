@@ -51,7 +51,6 @@ static class Message
            pattern = @"\b\w{" + counter++ + @"}\b";
            regex = new Regex(pattern);
         }
-        counter=8;
         Console.WriteLine($"Самое длинное слово сообщения: {counter}");
 
         //regex = new Regex(@"\b\w{8}\b");
