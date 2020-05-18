@@ -1,0 +1,17 @@
+root:password
+admin:mustang
+test:michael
+guest:footbal
+info:1234567
+adm:shadow
+mysql:123123
+user:111111
+administrator:12345678
+oracle:sunshine
+ftp:trustno1
+pi:baseball
+puppet:iloveyou
+ansible:1234567
+ec2-user:zxcvbnm
+vagrant:95123577
+azureuser:azureuser
