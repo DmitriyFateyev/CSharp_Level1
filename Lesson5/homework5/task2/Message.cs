@@ -8,7 +8,7 @@ static class Message
     // а) Вывести только те слова сообщения,  которые содержат не более n букв.
     public static void LessThan(string text, int count)
     {
-        Regex regex = new Regex(@"\W\w{1," + count.ToString() + @"}\W"); //\s[a-zA-Z]{1,6}
+        Regex regex = new Regex(@"\W[a-zA-Z]{1," + count.ToString() + @"}\W"); //\s[a-zA-Z]{1,6}
 
         Match match = regex.Match(text);
 
@@ -26,10 +26,10 @@ static class Message
 
         if (char.IsLetter(symbol))
         {
-            pattern = @"\w+" + symbol;   
+            pattern = @"\w+" + symbol + @"\b";   
         } else
         {
-            pattern = @"\w+\" + symbol;
+            pattern = @"\w+\" + symbol + @"\b";
         }
         Regex regex = new Regex(pattern);
         Match match = regex.Match(text);
@@ -51,9 +51,10 @@ static class Message
            pattern = @"\b\w{" + counter++ + @"}\b";
            regex = new Regex(pattern);
         }
-        Console.WriteLine($"Самое длинное слово сообщения: {counter}");
+        counter -= 2; // wtf?
 
-        //regex = new Regex(@"\b\w{8}\b");
+        Console.Write($"Самое длинное слово в тексте: ");
+
         regex = new Regex(@"\b\w{" + counter.ToString() + @"}\b");
 
         foreach (Match match in regex.Matches(text))
